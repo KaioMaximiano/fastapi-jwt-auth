@@ -17,7 +17,7 @@ Configure the database and run the app:
    http://127.0.0.1:8000/docs to access SWAGGER documentation
 
 Example requests in folder app/curl-requests.
-   You can use the in the Postman for example
+   You can use the in Postman for example
 
 Users
    fake_users_db = {
