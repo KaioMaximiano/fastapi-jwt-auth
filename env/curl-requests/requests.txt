@@ -1,0 +1,27 @@
+Health endpoint
+    curl --location 'http://127.0.0.1:8000/health' \
+    --header 'accept: application/json'
+
+    
+Token endpoing
+    curl --location 'http://127.0.0.1:8000/token' \
+    --header 'accept: application/json' \
+    --header 'Content-Type: application/x-www-form-urlencoded' \
+    --data-urlencode 'grant_type=password' \
+    --data-urlencode 'username=user' \
+    --data-urlencode 'password=L0XuwPOdS5U' \
+    --data-urlencode 'scope=' \
+    --data-urlencode 'client_id=string' \
+    --data-urlencode 'client_secret=string'
+
+
+User endpoint
+    curl --location 'http://127.0.0.1:8000/user' \
+    --header 'accept: application/json' \
+    --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzMxNDc1MDB9.gMMXDAw4_NxQLIXPPD_QUhbfGvtLTqXsjpHvFx1OIy8'
+
+
+Admin endpoint
+    curl --location 'http://127.0.0.1:8000/admin' \
+    --header 'accept: application/json' \
+    --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyIiwicm9sZSI6InVzZXIiLCJleHAiOjE3MzMxNDc1MDB9.gMMXDAw4_NxQLIXPPD_QUhbfGvtLTqXsjpHvFx1OIy8'
