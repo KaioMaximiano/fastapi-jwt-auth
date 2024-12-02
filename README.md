@@ -16,7 +16,7 @@ Configure the database and run the app:
    uvicorn app.main:app --reload
    http://127.0.0.1:8000/docs to acess SWAGGER documetation
 
-Request in folder curl-requests.
+Request in folder app/curl-requests.
    You can use the in Postman for example
 
 Users
