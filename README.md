@@ -14,7 +14,7 @@ Install dependencies:
 
 Configure the database and run the app:
    uvicorn app.main:app --reload
-   http://127.0.0.1:8000/docs to acess SWAGGER documetation
+   http://127.0.0.1:8000/docs to access SWAGGER documentation
 
 Example requests in folder app/curl-requests.
    You can use the in the Postman for example
