@@ -1,9 +1,9 @@
 # FastAPI JWT Auth
 
-## Descrição
-Uma API feita com FastAPI que utiliza autenticação JWT para proteger rotas. A API interage com um banco de dados SQLite para armazenar e recuperar dados de usuários.
+## Description
+The API that uses FastAPI with auth JWT to protect routes. The API interacts with the SQLite database to store and retrieve user's data
 
-## Configuração
+## Set up and Configuration
 
 Clone o repositóry:
    git clone https://github.com/KaioMaximiano/fastapi-jwt-auth.git
@@ -16,8 +16,8 @@ Configure the database and run the app:
    uvicorn app.main:app --reload
    http://127.0.0.1:8000/docs to acess SWAGGER documetation
 
-Request in folder app/curl-requests.
-   You can use the in Postman for example
+Example requests in folder app/curl-requests.
+   You can use the in the Postman for example
 
 Users
    fake_users_db = {
