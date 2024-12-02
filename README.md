@@ -5,7 +5,7 @@ Uma API feita com FastAPI que utiliza autenticação JWT para proteger rotas. A 
 
 ## Configuração
 
-1. Clone o repositóry:
+Clone o repositóry:
    git clone https://github.com/KaioMaximiano/fastapi-jwt-auth.git
    cd fastapi-jwt-auth
 
